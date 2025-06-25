@@ -63,28 +63,14 @@ Time    S   A      B      | SUM   C4
 📷 Waveform Example
 ![capture](Capture.png)
 ```
-🔺 Make sure Capture.png is in the same folder as README.md and named exactly like that (case-sensitive!).
-
 ✅ How to Run
 Clone this repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/RIPPLE_CARRY_ADDER.git
-cd RIPPLE_CARRY_ADDER
-Then:
-
 Open the project in Vivado or another Verilog simulator.
-
 Add all .v files to your simulation project.
-
 Run TB_rca.v.
 
 📌 Notes
 This is a purely combinational circuit.
-
 Overflow is not handled explicitly but can be observed via C4.
-
 Negative outputs use 2’s complement representation.
 ```
