@@ -86,7 +86,8 @@ Use it to view signal transitions of A, B, Sum, C4, and S.
 
 📌 Notes
 This is a purely combinational circuit.
-![capture](Capture.png)
+![Capture](Capture.png)
+
 Overflow is not handled explicitly but can be observed via C4.
 
 Negative outputs use 2’s complement representation.
