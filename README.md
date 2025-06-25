@@ -35,7 +35,6 @@ Edit
 
 Implements a 1-bit full adder using basic gates:
 
-
 ```verilog
 assign sum   = a ^ b ^ cin;
 assign carry = (a & b) | (b & cin) | (cin & a);
@@ -60,9 +59,12 @@ Time    S   A      B      | SUM   C4
 20 ns   1   0111   1110   | 1001   0   -> 7 - 14 = -7 (2's complement = 1001)
 30 ns   1   0010   1001   | 1001   0   -> 2 - 9 = -7
 ✔️ All outputs match expected binary results.
-```
-![capture](capture.png) 
-```
+
+📷 Waveform Example
+
+
+🔺 Make sure Capture.png is in the same folder as README.md and named exactly like that (case-sensitive!).
+
 ✅ How to Run
 Clone this repo:
 
@@ -71,12 +73,13 @@ Copy
 Edit
 git clone https://github.com/yourusername/RIPPLE_CARRY_ADDER.git
 cd RIPPLE_CARRY_ADDER
-Open in Vivado or any other Verilog simulator.
+Then:
+
+Open the project in Vivado or another Verilog simulator.
+
 Add all .v files to your simulation project.
+
 Run TB_rca.v.
-
-📷 Waveform Example
-
 
 📌 Notes
 This is a purely combinational circuit.
