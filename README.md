@@ -74,6 +74,6 @@ This is a purely combinational circuit.
 Overflow is not handled explicitly but can be observed via C4.
 Negative outputs use 2’s complement representation.
 ```
-![Schematic](Schematic.png)
-![Full_And_Half_Adder](F_H_ADDER.png)
-![Delays](Delays.png)
+![Schematic](Schematic.PNG)
+![Full_And_Half_Adder](F_H_ADDER.PNG)
+![Delays](Delays.PNG)
