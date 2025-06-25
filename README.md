@@ -60,20 +60,40 @@ Time    S   A      B      | SUM   C4
 30 ns   1   0010   1001   | 1001   0   -> 2 - 9 = -7
 ✔️ All outputs match expected binary results.
 ```
-📷 Waveform Example
+📷 Waveform Example  
 ![capture](Capture.png)
-```
-✅ How to Run
-Clone this repo:
-Open the project in Vivado or another Verilog simulator.
-Add all .v files to your simulation project.
-Run TB_rca.v.
 
-📌 Notes
-This is a purely combinational circuit.
-Overflow is not handled explicitly but can be observed via C4.
-Negative outputs use 2’s complement representation.
-```
+---
+
+## 🧩 Visual Representations
+
+### 🛠️ RTL Schematic (Vivado Synthesized)
+
+This schematic shows how the `rca.v` and `full_adder.v` modules are interconnected during synthesis. Each full-adder block is chained, showing carry propagation from one stage to the next — a key feature of the ripple carry adder design.
+
 ![Schematic](Schematic.PNG)
+
+---
+
+### ⚙️ Half and Full Adder Logic
+
+These diagrams illustrate the logic-level breakdown of:
+
+- A **Half Adder** (HA): adds two bits, gives Sum and Carry
+- A **Full Adder** (FA): builds upon HA and includes Carry-in
+
+This logic is used to construct the full 4-bit RCA module.
+
 ![Full_And_Half_Adder](F_H_ADDER.PNG)
+
+---
+
+### ⏱️ Critical Path & Delay Visualization
+
+This diagram shows how the **carry signal ripples** through each stage. The *critical path delay* increases linearly with the number of bits:
+- For `n = 4`, `t = 5C`
+- For `n = 12`, `t = 33C`, etc.
+
+This delay is a fundamental limitation of ripple-carry adders and motivates more advanced adder architectures in large designs.
+
 ![Delays](delays.PNG)
