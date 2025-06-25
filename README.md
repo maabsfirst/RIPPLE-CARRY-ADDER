@@ -6,8 +6,6 @@ This project implements a 4-bit Ripple Carry Adder (RCA) that performs both **ad
 - A ripple-carry-based 4-bit adder/subtractor  
 - A comprehensive testbench for simulation in Xilinx Vivado  
 
----
-
 ## 🧠 Functionality
 
 The `rca` module performs either:
@@ -18,8 +16,6 @@ The `rca` module performs either:
 Subtraction is done using **2's complement logic**:  
 `B' = B XOR 1`, `Cin = 1` → A - B = A + (~B + 1)
 
----
-
 ## 📁 File Structure
 
 📂 RIPPLE_CARRY_ADDER/
@@ -29,11 +25,9 @@ Subtraction is done using **2's complement logic**:
 ├── Capture.png # Output waveform
 ├── README.md # Project documentation
 
-yaml
+nginx
 Copy
 Edit
-
----
 
 ## 📦 Modules
 
@@ -75,13 +69,12 @@ Edit
 git clone https://github.com/yourusername/RIPPLE_CARRY_ADDER.git
 cd RIPPLE_CARRY_ADDER
 Open in Vivado or any other Verilog simulator.
-
 Add all .v files to your simulation project.
-
 Run TB_rca.v.
 
 📷 Waveform Example
-<img src="Capture.png" alt="Simulation Waveform" width="600"/>
+
+
 📌 Notes
 This is a purely combinational circuit.
 
