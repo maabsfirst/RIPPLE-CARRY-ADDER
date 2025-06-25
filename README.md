@@ -34,7 +34,7 @@ Edit
 ### `full_adder.v`
 
 Implements a 1-bit full adder using basic gates:
-![capture](Capture.png)
+
 
 ```verilog
 assign sum   = a ^ b ^ cin;
@@ -60,7 +60,9 @@ Time    S   A      B      | SUM   C4
 20 ns   1   0111   1110   | 1001   0   -> 7 - 14 = -7 (2's complement = 1001)
 30 ns   1   0010   1001   | 1001   0   -> 2 - 9 = -7
 ✔️ All outputs match expected binary results.
-
+```
+![capture](capture.png) 
+```
 ✅ How to Run
 Clone this repo:
 
