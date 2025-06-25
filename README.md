@@ -34,6 +34,7 @@ Edit
 ### `full_adder.v`
 
 Implements a 1-bit full adder using basic gates:
+![capture](Capture.png)
 
 ```verilog
 assign sum   = a ^ b ^ cin;
