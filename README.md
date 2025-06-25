@@ -59,10 +59,10 @@ Time    S   A      B      | SUM   C4
 20 ns   1   0111   1110   | 1001   0   -> 7 - 14 = -7 (2's complement = 1001)
 30 ns   1   0010   1001   | 1001   0   -> 2 - 9 = -7
 ✔️ All outputs match expected binary results.
-
+```
 📷 Waveform Example
-
-
+![capture](Capture.png)
+```
 🔺 Make sure Capture.png is in the same folder as README.md and named exactly like that (case-sensitive!).
 
 ✅ How to Run
@@ -87,3 +87,4 @@ This is a purely combinational circuit.
 Overflow is not handled explicitly but can be observed via C4.
 
 Negative outputs use 2’s complement representation.
+```
