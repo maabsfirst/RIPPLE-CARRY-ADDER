@@ -76,4 +76,4 @@ Negative outputs use 2’s complement representation.
 ```
 ![Schematic](Schematic.PNG)
 ![Full_And_Half_Adder](F_H_ADDER.PNG)
-![Delays](Delays.PNG)
+![Delays](delays.PNG)
