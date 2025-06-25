@@ -97,6 +97,6 @@ Copy
 Edit
 D:/VIVADO_PROJECTS/RIPPLE_CARRY_ADDER/TB_rca_behav.wcfg
 You can use it to view signals for A, B, Sum, C4, and S.
-![Waveform Output](https://raw.githubusercontent.com/maabsfirst/RIPPLE-CARRY-ADDER/main/Capture.PNG)
+![Waveform Output](https://raw.githubusercontent.com/maabsfirst/RIPPLE-CARRY-ADDER/main/Capture.png)
 
 
