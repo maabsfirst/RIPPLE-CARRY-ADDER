@@ -14,9 +14,6 @@ The `rca` module performs either:
 Subtraction is done using **2's complement logic**:
 B' = B XOR 1, Cin = 1 --> A - B = A + (~B + 1)
 
-shell
-Copy
-Edit
 
 ## 📁 File Structure
 
@@ -26,9 +23,6 @@ Edit
 ├── TB_rca.v # Testbench for simulation
 ├── README.md # Project documentation
 
-nginx
-Copy
-Edit
 
 ## 📦 Modules
 
@@ -64,24 +58,18 @@ Time    S   A      B      | SUM   C4
 ✅ How to Run
 Clone this repo:
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/RIPPLE_CARRY_ADDER.git
-cd RIPPLE_CARRY_ADDER
 Open in Vivado or any other Verilog simulator.
-
 Add all .v files to your simulation project.
-
 Run TB_rca.v.
 
 📷 Waveform Example
 Vivado .wcfg included:
+![image](https://github.com/user-attachments/assets/1370081b-0dfe-49aa-ae2f-2ddf51e2442e)
+
 
 javascript
 Copy
 Edit
-D:/VIVADO_PROJECTS/RIPPLE_CARRY_ADDER/TB_rca_behav.wcfg
 Use it to view signal transitions of A, B, Sum, C4, and S.
 
 📌 Notes
